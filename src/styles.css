@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --bg-dark: #000405;
+    --bg-light: #fafeff;
+    --text-dark: #012228;
+    --text-light: #d7f8fe;
+    --mint: #04e1f1;
+    --blue: #0603c9;
+    --light-blue: #7794fd;
+    --secondary-blue: #3936fc;
+}
+
+html, body { 
+    margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Montserrat", serif;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+}
