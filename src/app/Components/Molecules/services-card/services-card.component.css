@@ -1,17 +1,14 @@
 .card {
     /* background: linear-gradient(240deg, #001318 15%, var(--turquoise) 64%, var(--cyan) 130%); */
-    background: radial-gradient(circle at 0% 30%, rgba(0, 103, 221, 0.8), transparent 40%), 
-    radial-gradient(circle at 75% 0%, rgba(0, 221, 221, 0.8), transparent 40%);
+    background: radial-gradient(circle at 0% 30%, rgba(0, 103, 221, 0.8), transparent 45%), 
+    radial-gradient(circle at 75% 0%, rgba(0, 221, 221, 0.8), transparent 40%),
+    radial-gradient(circle at 62% 110%, rgba(0, 19, 24, 0.8), transparent 80%);
     max-width: 250px;
     height: 300px;
     padding: 1rem;
     border-radius: 15px;
     align-content: center;
 }
-
-/* .card-wrapper{
-    background-color: #001318;
-} */
 
 .title {
     margin-bottom: 1.5rem;
