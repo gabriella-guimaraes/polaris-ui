@@ -1,0 +1,39 @@
+.Services {
+    min-height: 100vh;
+    background-color: var(--bg-dark);
+    color: var(--text-light);
+}
+
+.title {
+    width: 50%;
+    text-align: left;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 10rem;
+}
+
+@media (max-width: 800px) {
+    .cards {
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 5rem;
+    }
+
+    .title {
+        width: 100%;
+    }
+}
+
+@media (max-width: 850px) {
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+}
